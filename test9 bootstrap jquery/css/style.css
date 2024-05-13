@@ -1,0 +1,59 @@
+
+.slick-prev.slick-arrow{
+    background-image: url("../images/arrowleft.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 1px;
+    cursor: pointer;
+    left: 15px;
+    z-index: 5;
+
+
+}
+.slick-next.slick-arrow {
+    background-image: url("../images/arrowright.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border: 1px;
+    cursor: pointer;
+    right: 15px;
+    z-index: 5;
+}
+
+.slick-prev:before {
+    content: '';
+}
+
+.slick-next:before {
+    content: '';
+}
+.ui-icon-triangle-1-s {
+    background-position: center;
+}
+.ui-icon-triangle-1-e {
+    background-position: center;
+}
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../images/next.png");
+    position:absolute;
+    right: 10px;
+}
+.ui-state-hover .ui-icon {
+    background-image: url("../images/next.png");
+    position:absolute;
+    right: 10px;
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon {
+    background-image: url("../images/active.png");
+    position:absolute;
+    right: 10px;
+}
+
+#thankYouMessage {
+    display: none;
+    color: darkred;
+    font-size: 32px;
+}
+
