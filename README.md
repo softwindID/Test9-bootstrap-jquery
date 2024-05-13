@@ -1,1 +1,1 @@
-# Test9-bootstrap-jquery
+# Test9-bootstrap-jquery (slick/wow,etc)
